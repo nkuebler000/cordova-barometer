@@ -40,7 +40,7 @@
 				</config-file>
 
 				<js-module src="www/barometer.js" name="barometer">
-						<clobbers target="navigator.barometer" />
+						<clobbers target="navigator.barometerIOS" />
 				</js-module>
 
 				<header-file src="src/ios/Barometer.h" />
